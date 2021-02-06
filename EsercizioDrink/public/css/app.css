@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/20/57/6a/20576a063aa12b405d3249a6ab440cf3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: salmon;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+  }
+
+a:hover {
+    color: salmon;
+  }
+
+  .container-list {
+      width: 40%;
+      background-color: rgba(255, 255, 255, 0.6);
+  }
+
+button {
+    background-color: salmon;
+    color: grey;
+    padding: 10px;
+    margin: 10px;
+}
+
+button a:hover {
+    color: white;
+}

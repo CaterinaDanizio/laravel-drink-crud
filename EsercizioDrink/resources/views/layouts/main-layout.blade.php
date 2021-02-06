@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Laravel Drink Crud</title>
+    <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
+    <script src="{{ asset('/js/app.js')}}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            @include('components.header')
+        </header>
+
+        <main>
+          @yield('content')
+        </main>
+
+        <footer>
+            @include('components.footer')
+        </footer>
+    </div>
+
+</body>
+</html>
